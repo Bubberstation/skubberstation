@@ -1,34 +1,33 @@
-## Bubberstation (TG Downstream)
+## Skubberstation (Modified Bubberstation)
 
-[![CI Suite](https://github.com/Bubberstation/Bubberstation/actions/workflows/ci_suite.yml/badge.svg)](https://github.com/Bubberstation/Bubberstation/actions/workflows/ci_suite.yml)
+[![CI Suite](https://github.com/Bubberstation/skubberstation/actions/workflows/ci_suite.yml/badge.svg)](https://github.com/Bubberstation/skubberstation/actions/workflows/ci_suite.yml)
 
 [![resentment](.github/images/badges/built-with-resentment.svg)](.github/images/comics/131-bug-free.png) [![technical debt](.github/images/badges/contains-technical-debt.svg)](.github/images/comics/106-tech-debt-modified.png) [![forinfinityandbyond](.github/images/badges/made-in-byond.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
 
 | Website                 | Link                                                              |
 | ----------------------- | ----------------------------------------------------------------- |
 | Git / GitHub cheatsheet | https://www.notion.so/Git-GitHub-61bc81766b2e4c7d9a346db3078ce833 |
-| Guide to Modularization | [./modular_zubbers/readme.md](./modular_zubbers/readme.md)        |
+| Guide to Modularization | [./modular_skubber/readme.md](./modular_skubber/readme.md)        |
 | Website                 | https://wiki.bubberstation.org/index.php?title=Main_Page          |
 | Code                    | https://github.com/Bubberstation/Bubberstation                    |
 | Wiki                    | https://tgstation13.org/wiki/Main_Page                            |
 | Codedocs                | https://bubberstation.github.io/Bubberstation                     |
+| Skubberstation Discord  | https://discord.gg/3sn27NGVpn                                     |
 | Bubberstation Discord   | https://discord.gg/AvjrTqnqEx                                     |
 | Coderbus Discord        | https://discord.gg/Vh8TJp9                                        |
 
-This is Bubberstation's fork of TG. Originally forked from Skyrat.
+This is Skubberstation's modified Bubberstation fork.
 
 **Please note that this repository contains sexually explicit content and is not suitable for those under the age of 18.**
 
 Space Station 13 is a paranoia-laden round-based roleplaying game set against the backdrop of a nonsensical, metal death trap masquerading as a space station, with charming spritework designed to represent the sci-fi setting and its dangerous undertones. Have fun, and survive!
 
-As of our recent split from Skyrat, a lot of codedocs/modularization guides need to be rewritten. Until it is done expect some wait time with larger refactors. You are also free to edit any Skyrat files
-
 ## Contribution Rules and Guidelines
 
 **1. Do Not Be A Dick**
 
-- The Bubberstation main repository is maintained by and contributed to by volunteers and hobbiests. You are not entitled to our time and energy. We reserve the right to permanently remove anyone who does not show both our contributor's and maintainer's common decency.
-- Bubberstation does not operate a strict "goodboy" points system or have defined goals, and anyone is welcome to contribute to this project. That being said, the maintainers of this project are free to curate comments as seen fit to uphold a respectful environment.
+- The Skubberstation main repository is maintained by and contributed to by volunteers and hobbiests. You are not entitled to our time and energy. We reserve the right to permanently remove anyone who does not show both our contributor's and maintainer's common decency.
+- Skubberstation does not operate a strict "goodboy" points system or have defined goals, and anyone is welcome to contribute to this project. That being said, the maintainers of this project are free to curate comments as seen fit to uphold a respectful environment.
 
 **2. The Licensing is Non-negotiable**
 
@@ -46,9 +45,7 @@ As of our recent split from Skyrat, a lot of codedocs/modularization guides need
 
 _Credit: [Goonstation contribution guidelines](https://hackmd.io/@goonstation/docs/%2F%40goonstation%2Fcontribute#What-if-I-change-my-mind-about-my-contributions-being-published)_
 
-To forward any licensing concerns, please open an issue report or pull request. Alternatively, you can join our [Discord](https://discord.gg/AvjrTqnqEx) and contact the project leaders.
-
-## Modularization and codedocs note
+To forward any licensing concerns, please open an issue report or pull request. Alternatively, you can join our [Discord](https://discord.gg/3sn27NGVpn) and contact the project leaders.
 
 ## Important note - TEST YOUR PULL REQUESTS
 
@@ -60,7 +57,6 @@ You are responsible for the testing of your content. You should not mark a pull 
 
 [Running on the server](.github/guides/RUNNING_A_SERVER.md)
 
-[Maps and Away Missions](.github/guides/MAPS_AND_AWAY_MISSIONS.md)
 [Maps and Away Missions](.github/guides/MAPS_AND_AWAY_MISSIONS.md)
 
 ## Compilation
