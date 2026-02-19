@@ -1835,6 +1835,7 @@
 /obj/item/choice_beacon/music,
 /obj/item/storage/belt/mining/vendor,
 /obj/structure/marker_beacon/bronze,
+/obj/item/card/id/departmental_budget/int,
 /turf/open/floor/carpet/orange,
 /area/ruin/space/has_grav/bubbers/persistance/service/dorms/cargo)
 "dN" = (
@@ -6494,6 +6495,7 @@
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/machinery/mining_weather_monitor/directional/west,
+/obj/item/circuitboard/machine/ltsrbt,
 /obj/item/market_uplink/blackmarket{
 	pixel_x = -2;
 	pixel_y = 5
@@ -6510,6 +6512,8 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 5
 	},
+/obj/item/inducer/syndicate,
+/obj/item/inducer/syndicate,
 /turf/open/floor/noslip,
 /area/ruin/space/has_grav/bubbers/persistance/engineering/utilities)
 "nR" = (
@@ -6855,6 +6859,8 @@
 /obj/effect/spawner/random/entertainment/plushie_delux,
 /obj/item/clothing/suit/jacket/runner/syndicate,
 /obj/item/radio/headset/syndicateciv/command,
+/obj/item/inducer/syndicate,
+/obj/item/clothing/head/hats/caphat/parade/fedcap/sec,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/bubbers/persistance/command/liason)
 "oz" = (
@@ -11625,6 +11631,7 @@
 	pixel_x = -3;
 	pixel_y = 6
 	},
+/obj/item/toy/plush/nukeplushie,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/bubbers/persistance/command/liason)
 "xV" = (
@@ -13815,6 +13822,7 @@
 	pixel_y = -1
 	},
 /obj/structure/marker_beacon/burgundy,
+/obj/item/toy/plush/nukeplushie,
 /turf/open/floor/carpet/red,
 /area/ruin/space/has_grav/bubbers/persistance/command/admiral)
 "Ck" = (
@@ -14366,6 +14374,10 @@
 	dir = 9
 	},
 /obj/machinery/byteforge,
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "Syndibitrunningconveyor"
+	},
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/bubbers/persistance/sec/interrogation)
 "Do" = (
@@ -15128,6 +15140,9 @@
 /area/ruin/space/has_grav/bubbers/persistance/sci/xenobio)
 "EL" = (
 /obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/storage/belt/utility,
+/obj/item/storage/belt/utility,
+/obj/item/storage/belt/utility,
 /obj/item/pipe_dispenser{
 	pixel_x = -3
 	},
@@ -16593,6 +16608,8 @@
 "HN" = (
 /obj/machinery/firealarm/directional/south,
 /obj/structure/frame/machine/secured,
+/obj/item/circuitboard/machine/powerator/interdyne,
+/obj/structure/cable,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/bubbers/persistance/cargo)
 "HP" = (
@@ -17585,6 +17602,7 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 6
 	},
+/obj/structure/cable,
 /turf/open/floor/carpet/black,
 /area/ruin/space/has_grav/bubbers/persistance/cargo)
 "JL" = (
@@ -18813,6 +18831,7 @@
 /obj/item/melee/baton/security,
 /obj/effect/spawner/random/exotic/syndie,
 /obj/item/choice_beacon/music,
+/obj/item/inducer/syndicate,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/bubbers/persistance/service/dorms/brig)
 "MC" = (
@@ -19622,6 +19641,9 @@
 	dir = 8
 	},
 /obj/item/stock_parts/power_store/battery/high,
+/obj/item/inducer/syndicate,
+/obj/item/clothing/head/hats/caphat/parade/fedcap/sec,
+/obj/item/clothing/head/hats/hos/beret/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/bubbers/persistance/command/admiral)
 "Oh" = (
@@ -22178,6 +22200,7 @@
 	freqlock = 1;
 	frequency = 1245
 	},
+/obj/item/inducer/syndicate,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/bubbers/persistance/service/dorms/maa)
 "TX" = (
@@ -24568,6 +24591,7 @@
 	dir = 8
 	},
 /obj/structure/marker_beacon/green,
+/obj/structure/cable,
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/space/has_grav/bubbers/persistance/cargo)
 "YJ" = (
