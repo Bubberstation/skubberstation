@@ -99,6 +99,7 @@ SUBSYSTEM_DEF(persistence)
 			save_tram_history(transport.specific_transport_id)
 		save_tram_counter()
 	save_panic_bunker() //SKYRAT EDIT ADDITION - PANICBUNKER
+	save_persistent_skills() // SKUBBER EDIT - ADDITION - SKILLS
 
 ///Loads up Poly's speech buffer.
 /datum/controller/subsystem/persistence/proc/load_poly()
