@@ -38,7 +38,7 @@ opt = argparse.ArgumentParser()
 opt.add_argument('ymlDir', help='The directory of YAML changelogs we will use.')
 
 args = opt.parse_args()
-archiveDir = os.path.join(args.ymlDir, 'bubber_archive') # BUBBER EDIT CHANGE: Changelog 2: Original: archiveDir = os.path.join(args.ymlDir, 'archive')
+archiveDir = os.path.join(args.ymlDir, 'skubber_archive') # SKUBBER EDIT - CHANGE - SKUBBER CHANGELOG - ORIGINAL: archiveDir = os.path.join(args.ymlDir, 'bubber_archive') # BUBBER EDIT CHANGE: Changelog 2: Original: archiveDir = os.path.join(args.ymlDir, 'archive')
 
 all_changelog_entries = {}
 
@@ -110,6 +110,7 @@ for fileName in glob.glob(os.path.join(args.ymlDir, "*.yml")):
     if name.startswith('.'): continue
     if name == 'example': continue
     if "bubber" not in name: continue # BUBBER EDIT ADDITION: Changelog 2
+    if "skubber" not in name: continue # SKUBBER EDIT - ADDITION - SKUBBER CHANGELOG
     fileName = os.path.abspath(fileName)
     formattedDate = today.strftime(fileDateFormat)
     monthFile = os.path.join(archiveDir, formattedDate + '.yml')
